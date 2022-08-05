@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Insanibu';
+	src: url('fonts/insanibu.eot'); /* IE9+ Compat Modes */
+	src: url('fonts/insanibu.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('fonts/insanibu.woff2') format('woff2'), /* Super modern browsers */
+		 url('fonts/insanibu.woff') format('woff'), /* Modern browsers */
+		 url('fonts/insanibu.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('fonts/insanibu.svg#insanibu') format('svg'); /* Legacy iOS */
+}
+
+body {
+	background: linear-gradient(90deg, #0070ab 50%, #213461 50%), #ccc;
+	background-size: 200px auto;
+}
+h1 {
+	font-family: "Insanibu";
+	color: #8fab25;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	text-align: center;
+	font-weight: normal;
+}
+.edito {
+	background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	max-width: 80%;
+}
+.sites {
+	padding-bottom: 100px;
+}
+.sites a {
+	text-decoration: inherit;
+	color: inherit;
+	align-items: center;
+	display: flex;
+}
+.site-select {
+	opacity: .5;
+	background-color: white;
+	padding: 2%;
+}
+.site-select:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+.site-select-tl {
+	border-radius: 20px 20px 0px 20px;
+}
+.site-select-tr {
+	border-radius: 20px 20px 20px 0px;
+}
+.site-select-bl {
+	border-radius: 20px 0px 20px 20px;
+}
+.site-select-br {
+	border-radius: 0px 20px 20px 20px;
+}
+.site-select-bl:hover, .site-select-br:hover {
+	opacity: .8;
+	cursor: not-allowed;
+}
+.site-select img {
+	margin: 5%;
+	max-width: 100px;
+}
