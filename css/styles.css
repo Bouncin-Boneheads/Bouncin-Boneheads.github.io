@@ -19,6 +19,17 @@ h1 {
 	text-align: center;
 	font-weight: normal;
 }
+.banner {
+	width: 461px;
+	height: 253px;
+	background: url("../images/banner.png") no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+.banner:hover {
+	background: url("../images/banner.gif") no-repeat;
+	background-position: center;
+}
 .edito {
 	background-color: white;
 	border-radius: 20px;
@@ -62,4 +73,13 @@ h1 {
 .site-select img {
 	margin: 5%;
 	max-width: 100px;
+}
+.site-select-bonus {
+	opacity: 1;
+	border-radius: 20px;
+}
+.site-select-bonus img{
+	margin: 0;
+	margin-right: 30px;
+	max-width: 60px;
 }
