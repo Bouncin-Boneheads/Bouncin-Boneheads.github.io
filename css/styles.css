@@ -44,6 +44,7 @@ h1 {
 	color: inherit;
 	align-items: center;
 	display: flex;
+	flex: auto;
 }
 .site-select {
 	opacity: .5;
@@ -59,6 +60,12 @@ h1 {
 }
 .site-select-tr {
 	border-radius: 20px 20px 20px 0px;
+}
+.site-select-ml {
+	border-radius: 20px 0px 0px 20px;
+}
+.site-select-mr {
+	border-radius: 0px 20px 20px 0px;
 }
 .site-select-bl {
 	border-radius: 20px 0px 20px 20px;
