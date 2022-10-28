@@ -12,6 +12,10 @@ body {
 	background: linear-gradient(90deg, #0070ab 50%, #213461 50%), #ccc;
 	background-size: 200px auto;
 }
+body.foot {
+	background: linear-gradient(90deg, #00ab17 50%, #286121 50%), #ccc;
+	background-size: 200px auto;
+}
 h1 {
 	font-family: "Insanibu";
 	color: #8fab25;
@@ -51,6 +55,9 @@ h1 {
 	background-color: white;
 	padding: 2%;
 }
+.site-select.site-select-enabled{
+	opacity: 1;
+}
 .site-select:hover {
 	opacity: 1;
 	cursor: pointer;
@@ -73,7 +80,7 @@ h1 {
 .site-select-br {
 	border-radius: 0px 20px 20px 20px;
 }
-.site-select-bl:hover, .site-select-br:hover {
+.site-select-br:hover {
 	opacity: .8;
 	cursor: not-allowed;
 }
@@ -89,4 +96,23 @@ h1 {
 	margin: 0;
 	margin-right: 30px;
 	max-width: 60px;
+}
+.ruffle-content > ruffle-player{
+	display: block;
+	margin: auto;
+  	margin-bottom: auto;
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+#backbutton {
+	background-color: white;
+	border-radius: 20px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+#backbutton > a{
+	width: 100%;
+	height: 100%;
+	padding: 15px;
 }
