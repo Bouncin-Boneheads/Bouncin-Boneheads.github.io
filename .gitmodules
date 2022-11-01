@@ -1,0 +1,3 @@
+[submodule "deps/dearflip-jquery-flipbook"]
+	path = deps/dearflip-jquery-flipbook
+	url = https://github.com/dearhive/dearflip-jquery-flipbook.git
