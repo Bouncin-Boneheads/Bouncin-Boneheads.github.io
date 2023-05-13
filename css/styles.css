@@ -133,3 +133,8 @@ h1 {
 	display: flex;
    align-items:center;
 }
+
+.foot .site-select img {
+	max-width: 300px;
+	margin: auto;
+}
