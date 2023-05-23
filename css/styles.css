@@ -138,3 +138,12 @@ h1 {
 	max-width: 300px;
 	margin: auto;
 }
+
+#playTip {
+	background-color: white;
+	border-radius: 20px;
+	position: fixed;
+	top: 100px;
+	left: 10px;
+	max-width: 300px;
+}
