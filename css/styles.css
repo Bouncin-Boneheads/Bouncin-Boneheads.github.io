@@ -12,6 +12,10 @@ body {
 	background: linear-gradient(90deg, #0070ab 50%, #213461 50%), #ccc;
 	background-size: 200px auto;
 }
+.container-wide {
+	--grid-maxWidth: 180rem;
+	margin-top: 20px !important;
+}
 body.foot {
 	background: linear-gradient(90deg, #00ab17 50%, #286121 50%), #ccc;
 	background-size: 200px auto;
@@ -146,4 +150,19 @@ h1 {
 	top: 100px;
 	left: 10px;
 	max-width: 300px;
+}
+
+.sticker-gallery-card {
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	height: 300px;
+}
+.sticker-gallery-card-img > a > img {
+	max-height: 220px;
+	margin: auto;
+	display: block;
+}
+.sticker-gallery-card-tags {
+	padding-top: 5px;
 }

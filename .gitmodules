@@ -1,3 +1,9 @@
 [submodule "deps/dearflip-jquery-flipbook"]
 	path = deps/dearflip-jquery-flipbook
 	url = https://github.com/dearhive/dearflip-jquery-flipbook.git
+[submodule "deps/Search-input-jquery-plugin"]
+	path = deps/Search-input-jquery-plugin
+	url = https://github.com/edutorres12/Search-input-jquery-plugin.git
+[submodule "deps/simplelightbox"]
+	path = deps/simplelightbox
+	url = https://github.com/andreknieriem/simplelightbox.git
