@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Jojo's Bouncin' Boneheads archives</title>
+		<link rel="stylesheet" href="../css/styles.css">
+		<link rel="stylesheet" href="../css/chota.css">
+	</head>
+	<body class="container foot">
+		<div id="albumtimfoot" class="ruffle-content"></div>
+
+		<script>
+			window.RufflePlayer = window.RufflePlayer || {};
+			window.addEventListener("load", (event) => {
+				const ruffle = window.RufflePlayer.newest();
+				const player = ruffle.createPlayer();
+				const container = document.getElementById("albumtimfoot");
+				container.appendChild(player);
+				player.load("../assets/Album_timfoot.swf");
+				player.style.width = "600px";
+				player.style.height = "400px";
+			});
+		</script>
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+		<div class="row">
+			<div class="col is-center">
+				<p class="edito text-center">
+					Tim foot Album was a flash interface to manage your virtual collection of Tim Foot stickers. Those stickers were hidden across the tfou website, randomly shown. The nature of the pictures to find is unknown.
+				</p>
+			</div>
+		</div>
+		<div id="backbutton"><a href="timfoot.html">< back</a></div>
+		<div id="playTip">
+			<div class="card">
+				<header>
+					<h4>Play flash content</h4>
+				</header>
+				<p>If the flash player is stuck at a light grey background, right click the frame and select "play" to continue.</p>
+				<footer class="is-right">
+					<a class="button" onclick="hideTip()">Get it!</a>
+				</footer>
+			</div>
+			<script>
+				function hideTip() {
+					document.getElementById("playTip").style.display = "none";
+				}
+			</script>
+		</div>
+	</body>
+</html>

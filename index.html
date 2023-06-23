@@ -19,39 +19,60 @@
 		<div class="row">
 			<div class="col is-center">
 				<p class="edito text-center">
-					This website has moved to a bigger, better and more complete platform! <br>
-				    <b>You should be automatically redirected in <span id="seconds">10</span> seconds.</b><br><br>
-					If not, click here: <a href="https://jojos-archives.net"><button type="submit">Go to jojos-archives.net</button> </a>
+					Pages of the Jojo's websites were restored thanks to the <a href="https://archive.org/web/">Internet Wayback machine</a>, and I took care to merge
+					every versions of the site to have as much images and pages as possible.
+					<br>
+					<br>
+					Jojo's, Bouncin' Boneheads and related trademarks are belonging to their respective owners which does not sponsor, authorize or endorse this site.
 				</p>
 			</div>
 		</div>
-		<script>
-			//stolen from http://jsfiddle.net/bubencode/dn6xc932/
-			// Countdown timer for redirecting to another URL after several seconds
 
-			var seconds = 7; // seconds for HTML
-			var foo; // variable for clearInterval() function
-
-			function redirect() {
-				document.location.href = 'https://jojos-archives.net';
-			}
-
-			function updateSecs() {
-				document.getElementById("seconds").innerHTML = seconds;
-				seconds--;
-				if (seconds == -1) {
-					clearInterval(foo);
-					redirect();
-				}
-			}
-
-			function countdownTimer() {
-				foo = setInterval(function () {
-					updateSecs()
-				}, 1000);
-			}
-
-			countdownTimer();
-		</script>
+		<div class="row sites">
+			<div class="col">
+				<div class="row">
+					<div class="col-6-md col-6-lg col-6 site-select site-select-tl is-center">
+						<a href="https://bouncin-boneheads.github.io/laortoys" target="_blank">
+							<img src="https://bouncin-boneheads.github.io/laortoys/images/p2jojo.gif">
+							Laor toys's 2000 website, including nice production informations and Jojo's timeline. (www.laortoys.co.il)
+						</a>
+					</div>
+					<div class="col-6-md col-6-lg col-6 site-select site-select-tr is-center">
+						<a href="https://bouncin-boneheads.github.io/originaljojos" target="_blank">
+							www.originaljojos.com, containing games, checklists and other goodies.
+							<img src="https://bouncin-boneheads.github.io/originaljojos/images/bonehead.gif">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6-md col-6-lg col-6 site-select site-select-ml is-center">
+						<a href="https://bouncin-boneheads.github.io/imperialtoy" target="_blank">
+							<img src="images/imperial.png">
+							Imperial Toy 2000 website, including Jojo's merch. (www.imperialtoy.com)
+						</a>
+					</div>
+					<div class="col-6-md col-6-lg col-6 site-select site-select-mr is-center">
+						<a href="pages/timfoot.html">
+							www.jojos.com : the Timfoot website run by tf1 in 2002. (incomplete) <br>
+							Contains flash games parially restored.
+							<img src="assets/jojos/timfoot/14.svg">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6-md col-6-lg col-6 site-select site-select-bl is-center">
+						<a href="pages/bonus.html">
+							<img src="assets/jojos/23.svg">
+							Bonus content, not extracted from the internet archives.
+						</a>
+					</div>
+					<div class="col-6-md col-6-lg col-6 site-select site-select-br is-center">
+						<a href="pages/othermedias.html">
+							Other medias (Magazines, booklets, ads...)
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
